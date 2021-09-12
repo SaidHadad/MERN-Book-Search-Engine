@@ -1,13 +1,13 @@
 const express = require('express');
 // import apollo server from apollo-server-expxress
 const { ApolloServer } = require('apollo-server-express')
-// const path = require('path'); -----------------------
+// const path = require('path');
 
 // const routes = require('./routes');
 // changed configure through routes for the typeDefs and resolver schemas
 const {typeDefs, resolvers} = require('./schemas');
 // middleware for the authentication
-// const {authMiddleware} = require('./utils/auth');
+const {authMiddleware} = require('./utils/auth');
 
 const db = require('./config/connection');
 
@@ -17,7 +17,7 @@ const app = express();
 const server = new ApolloServer({ 
   typeDefs, 
   resolvers, 
-  // context: authMiddleware 
+  context: authMiddleware 
 });
 
 server.applyMiddleware({ app });
