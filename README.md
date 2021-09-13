@@ -32,7 +32,7 @@
   <!-- ABOUT THE PROJECT -->
   ## About The Project
 
-  ![Photo Port](.Capture.JPG) <br>
+  ![Photo Port](./Capture.JPG) <br>
   The user is able to search for books through the Google API, save those books and see a list of the saved books.
   
   ## Built With
