@@ -5,7 +5,7 @@
   <p align="center">
   A GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API.<br>
   <!-- DEPLOYED LINK -->
-  Live link: http://saidhadad.github.io/Professional-Portfolio
+  Live link: https://mern-said-book-search.herokuapp.com/
   <br>
   GitHub repository URL: https://github.com/SaidHadad/MERN-Book-Search-Engine
 
